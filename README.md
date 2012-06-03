@@ -23,15 +23,15 @@
 ###Estimated Season Formula
 * Date + CalendarType + SeasonType + Language-Culture = Estimated Season
 
-###Default Estimated Season Formulas
+###Default Estimated Season Formula
 * Date + {CalendarType: Meteorological} + {SeasonType: Calendar} + {Language-Culture: en-US} = Estimated Season
 
 ###How to derive the Hemisphere?
 * __GPS Coordinate__ - Most mobile devices can derive this value
 * __Country Code__ - Seasons.js will key off a set of known Southern Hemisphere countries
-* __Language-Culture__ - Seasons.js will attempt to key the hemisphere based on this parameter only as an estimated season, results could vary
 * __User Input__ - You could ask the client to input the hemisphere
 * __Defaults__ - Seasons.js will default to Northern Hemisphere if no hemisphere is provided
+* __Language-Culture__ - Seasons.js will *attempt* to key the hemisphere based on this parameter, results could vary
 
 ###Calendar Seasons
 |                                   |
@@ -98,14 +98,14 @@
 | Firestorm                         |
 | Cloud                             |
 |                                   |
-*__Note__ special seasons will not be included in seasons.js until future releases.*
+*__Note__ special seasons isn't currently implemented in seasons.js, sorry.  We will work quickly to implement this feature in a future release.*
 
 
 ###Southern Hemisphere Countries
 
 *The following countries are either entirely or mostly in the Southern Hemisphere per [Wikipedia](http://en.wikipedia.org/wiki/Southern_Hemisphere).*
 
-*We will only key off of this list for Southern Hemisphere otherwise it will default to Northern Hemisphere.*
+*We will only key off of this list which contains countries in the Southern Hemisphere. If we don't find your country code we will assume the country is in the Northern Hemisphere.*
 
 |                                   | Country Code                 |
 |:----------------------------------|:-----------------------------|
