@@ -1,27 +1,28 @@
 #Welcome to **Seasons.js**
 *A JavaScript library which returns the season of the client*
 
-###Calendar Seasons
-* Spring
-* Summer
-* Autumn
-* Winter
+###Forumla
+* Date + Hemisphere + CalendarType + SeasonType = Season
 
-###Calendar Season Formulas
-* Date + Hemisphere = Season
-* Date + GPS Coordinate = Season
-* Date + Country = Season
-* Date + Calendar + Hemisphere = Season
-* Date + Calendar + GPS Coordinate = Season
-* Date + Calendar + Country = Season
+###Factors
+* Date - Month Day
+* Hemisphere - North or South
+* CalendarType - Meteorological or Astronomical
+* SeasonType - Calendar or Special
 
-*__Calendar__ meaning either Meteorological or Astronomical*
+###Season Formulas
+* Date + Hemisphere + SeasonType = Season
+* Date + GPS Coordinate + SeasonType = Season
+* Date + CalendarType + Hemisphere + SeasonType = Season
+* Date + CalendarType + GPS Coordinate + SeasonType = Season
 
-###Estimated Calendar Season Formulas
-* Date + Language-Culture = Estimated Season
+###Estimated Season Formulas
+* Date + Language-Culture + SeasonType = Estimated Season
+* Date + Country + SeasonType = Estimated Season
+* Date + CalendarType + Country + SeasonType = Estimated Season
 
-###Default Calendar Season Formulas
-* Date + {Hemisphere: Northern} + {Calendar: Meteorological} = Season
+###Default Season Formulas
+* Date + {Hemisphere: Northern} + {CalendarType: Meteorological} + {SeasonType: Calendar} = Season
 
 ###Meteorological Calendar Season Dates
 |                                   |                             |
@@ -54,6 +55,16 @@
 | Autumn                            | 21 March to 20 June         |
 | Winter                            | 21 June to 20 September     |
 |                                                                 |
+
+###Calendar Seasons
+|                                   |
+|:----------------------------------|
+| **Traditional Seasons**           |
+| Spring                            |
+| Summer                            |
+| Autumn                            |
+| Winter                            |
+|                                   |
 
 ###Special Seasons
 |                                   |
