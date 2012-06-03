@@ -1,23 +1,34 @@
 #Welcome to **Seasons.js**
 *A JavaScript library which returns the season of the client*
 
-###Season Forumla
-* Date + CalendarType + SeasonType + Hemisphere = Season
-
 ###Factors
-* Date - Month Day
-* Hemisphere - North or South
-* CalendarType - Meteorological or Astronomical
-* SeasonType - Calendar or Special
+* __Date__ - Month Day
+* __Hemisphere__ - Northern or Southern
+* __CalendarType__ - Meteorological or Astronomical
+* __SeasonType__ - Calendar or Special
+
+###Estimate Factors
+* CountryCode - US
+* LanguageCode - en
+* Language-Culture - en-US
+
+###Season Forumla
+* __Date + CalendarType + SeasonType + Hemisphere = Season__
+
+###Estimated Season Formulas
+* Date + CalendarType + SeasonType + CountryCode = Estimated Season
+* Date + CalendarType + SeasonType + LanguageCode = Estimated Season
+* Date + CalendarType + SeasonType + Language-Culture = Estimated Season
 
 ###Default Season Formulas
 * Date + {CalendarType: Meteorological} + {SeasonType: Calendar} + {Hemisphere: Northern} = Season
-* Date + CalendarType + {SeasonType: Calendar} + {Hemisphere: Northern} = Season
-* Date + CalendarType + SeasonType + {Hemisphere: Northern} = Season
 
-###Estimated Season Formulas
-* Date + CalendarType + SeasonType + Language-Culture = Estimated Season
-* Date + CalendarType + SeasonType + Country = Estimated Season
+###Default Estimated Season Formulas
+* Date + {CalendarType: Meteorological} + {SeasonType: Calendar} + {CountryCode: US} = Estimated Season
+* Date + {CalendarType: Meteorological} + {SeasonType: Calendar} + {LanguageCode: en} = Estimated Season
+* Date + {CalendarType: Meteorological} + {SeasonType: Calendar} + {Language-Culture: en-US} = Estimated Season
+
+
 
 ###Meteorological Calendar Season Dates
 |                                   |                             |
@@ -84,7 +95,94 @@
 | Firestorm                         |
 | Cloud                             |
 |                                   |
+*__Note__ special seasons will not be included in seasons.js until future releases.*
+
+
+###Southern Hemisphere Countries
+
+*The following countries are either entirely or mostly in the Southern Hemisphere per [Wikipedia](http://en.wikipedia.org/wiki/Southern_Hemisphere).*
+
+*We will only key off of this list for Southern Hemisphere otherwise it will default to Northern Hemisphere.*
+| Country                           | Country Code                 |
+|:----------------------------------|------------------------------|
+| **Africa **                                                      |
+| Angola                            |                              |
+| Botswana                          |                              |
+| Burundi                           |                              |
+| Comoros                           |                              |
+| Lesotho                           |                              |
+| Madagascar                        |                              | 
+| Malawi                            |                              |
+| Mauritius                         |                              |
+| Mozambique                        |                              |
+| Namibia                           |                              |
+| Rwanda                            |                              |
+| Seychelles                        |                              |
+| South Africa                      |                              | 
+| Swaziland                         |                              |
+| Tanzania                          |                              |
+| Zambia                            |                              | 
+| Zimbabwe                          |                              |
+| Democratic Republic of the Congo  |                              |
+| Gabon                             |                              |
+| Republic of the Congo             |                              |
+| **Asia**                                                         |
+| East Timor                        |                              | 
+| Indonesia                         |                              | 
+| **Australia**                                                    |
+| Australia                         |                              |
+| Papua New Guinea                  |                              |
+| **South America**                                                |
+| Argentina                         |                              | 
+| Bolivia                           |                              |
+| Chile                             |                              |
+| Paraguay                          |                              |
+| Peru                              |                              | 
+| Uruguay                           |                              |  
+| Brazil                            |                              |  
+| Ecuador                           |                              | 
+| **Pacific Ocean**                                                |
+| American Samoa                    |                              |   
+| Cook Islands                      |                              |
+| Easter Island                     |                              |
+| Fiji                              |                              |
+| French Polynesia                  |                              |
+| Galápagos Islands                 |                              |
+| Jarvis Island                     |                              |
+| Juan Fernández Islands            |                              |
+| Nauru                             |                              |
+| Territory of New Caledonia        |                              | 
+| New Zealand                       |                              |
+| Niue                              |                              |
+| Kermadec Islands                  |                              | 
+| Pitcairn Islands                  |                              |
+| Samoa                             |                              |
+| Solomon Islands                   |                              | 
+| Swains Island                     |                              |
+| Tokelau                           |                              | 
+| Tonga                             |                              |
+| Tuvalu                            |                              | 
+| Vanuatu                           |                              |
+| Wallis and Futuna                 |                              |
+| **Atlantic Ocean**                                               |
+| Falkland Islands                  |                              |
+| Saint Helena                      |                              |
+| Tristan da Cunha                  |                              | 
+| **Indian Ocean**                                                 |
+| British Indian Ocean Territory    |                              | 
+| Mayotte                           |                              |
+| Réunion                           |                              | 
+| **Southern Ocean**                                               |
+| Antarctic islands                 |                              |
+| Bouvet Island                     |                              | 
+| Kerguelen Islands                 |                              |
+| New Zealand Sub-Antarctic Islands |                              |  
+| Saint Paul and Amsterdam Island   |                              |
+| South Georgia                     |                              |
+| South Orkney Islands              |                              | 
+|                                   |                              |
 
 ###Sources: 
 - http://www.calendar-365.com/
 - http://en.wikipedia.org/wiki/Season
+- http://en.wikipedia.org/wiki/Southern_Hemisphere
