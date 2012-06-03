@@ -14,13 +14,14 @@
 * Date + Calendar + Hemisphere = Season
 * Date + Calendar + GPS Coordinate = Season
 * Date + Calendar + Country = Season
+
 *__Calendar__ meaning either Meteorological or Astronomical*
 
 ###Estimated Calendar Season Formulas
 * Date + Language-Culture = Estimated Season
 
 ###Default Calendar Season Formulas
-* Date + {Northern Hemisphere} + {Meteorological} = Season
+* Date + {Hemisphere: Northern} + {Calendar: Meteorological} = Season
 
 ###Meteorological Calendar Season Dates
 |                                   |                             |
