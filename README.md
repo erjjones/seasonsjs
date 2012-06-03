@@ -8,16 +8,14 @@
 * __SeasonType__ - Calendar or Special
 
 ###Estimate Factors
-* CountryCode - US
-* LanguageCode - en
-* Language-Culture - en-US
+* __CountryCode__ - US
+* __Language-Culture__ - en-US
 
 ###Season Forumla
-* __Date + CalendarType + SeasonType + Hemisphere = Season__
+* Date + CalendarType + SeasonType + Hemisphere = Season
 
 ###Estimated Season Formulas
 * Date + CalendarType + SeasonType + CountryCode = Estimated Season
-* Date + CalendarType + SeasonType + LanguageCode = Estimated Season
 * Date + CalendarType + SeasonType + Language-Culture = Estimated Season
 
 ###Default Season Formulas
@@ -25,10 +23,7 @@
 
 ###Default Estimated Season Formulas
 * Date + {CalendarType: Meteorological} + {SeasonType: Calendar} + {CountryCode: US} = Estimated Season
-* Date + {CalendarType: Meteorological} + {SeasonType: Calendar} + {LanguageCode: en} = Estimated Season
 * Date + {CalendarType: Meteorological} + {SeasonType: Calendar} + {Language-Culture: en-US} = Estimated Season
-
-
 
 ###Meteorological Calendar Season Dates
 |                                   |                             |
@@ -104,7 +99,7 @@
 
 *We will only key off of this list for Southern Hemisphere otherwise it will default to Northern Hemisphere.*
 | Country                           | Country Code                 |
-|:----------------------------------|------------------------------|
+|:----------------------------------|:-----------------------------|
 | **Africa **                                                      |
 | Angola                            |                              |
 | Botswana                          |                              |
