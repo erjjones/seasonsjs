@@ -121,12 +121,15 @@
 | Democratic Republic of the Congo  |                              |
 | Gabon                             |                              |
 | Republic of the Congo             |                              |
+|                                                                  |
 | **Asia**                                                         |
 | East Timor                        |                              | 
 | Indonesia                         |                              | 
+|                                                                  |
 | **Australia**                                                    |
 | Australia                         |                              |
 | Papua New Guinea                  |                              |
+|                                                                  |
 | **South America**                                                |
 | Argentina                         |                              | 
 | Bolivia                           |                              |
@@ -135,7 +138,8 @@
 | Peru                              |                              | 
 | Uruguay                           |                              |  
 | Brazil                            |                              |  
-| Ecuador                           |                              | 
+| Ecuador                           |                              |
+|                                                                  | 
 | **Pacific Ocean**                                                |
 | American Samoa                    |                              |   
 | Cook Islands                      |                              |
@@ -162,11 +166,13 @@
 | **Atlantic Ocean**                                               |
 | Falkland Islands                  |                              |
 | Saint Helena                      |                              |
-| Tristan da Cunha                  |                              | 
+| Tristan da Cunha                  |                              |
+|                                                                  | 
 | **Indian Ocean**                                                 |
 | British Indian Ocean Territory    |                              | 
 | Mayotte                           |                              |
-| Reunion                           |                              | 
+| Reunion                           |                              |
+|                                                                  | 
 | **Southern Ocean**                                               |
 | Antarctic islands                 |                              |
 | Bouvet Island                     |                              | 
@@ -175,7 +181,7 @@
 | Saint Paul and Amsterdam Island   |                              |
 | South Georgia                     |                              |
 | South Orkney Islands              |                              | 
-|                                   |                              |
+|                                                                  |
 
 ###Sources: 
 - http://www.calendar-365.com/
