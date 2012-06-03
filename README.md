@@ -98,6 +98,7 @@
 *The following countries are either entirely or mostly in the Southern Hemisphere per [Wikipedia](http://en.wikipedia.org/wiki/Southern_Hemisphere).*
 
 *We will only key off of this list for Southern Hemisphere otherwise it will default to Northern Hemisphere.*
+
 |                                   | Country Code                 |
 |:----------------------------------|:-----------------------------|
 | **Africa**                                                       |
