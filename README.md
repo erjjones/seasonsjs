@@ -1,7 +1,7 @@
 #Welcome to **Seasons.js**
 *A JavaScript library which returns the season of the client*
 
-###Forumla
+###Season Forumla
 * Date + CalendarType + SeasonType + Hemisphere = Season
 
 ###Factors
@@ -10,16 +10,14 @@
 * CalendarType - Meteorological or Astronomical
 * SeasonType - Calendar or Special
 
-###Season Formulas
-* Date + CalendarType + SeasonType + Hemisphere = Season
-* Date + CalendarType + SeasonType + GPS Coordinate = Season
+###Default Season Formulas
+* Date + {CalendarType: Meteorological} + {SeasonType: Calendar} + {Hemisphere: Northern} = Season
+* Date + CalendarType + {SeasonType: Calendar} + {Hemisphere: Northern} = Season
+* Date + CalendarType + SeasonType + {Hemisphere: Northern} = Season
 
 ###Estimated Season Formulas
 * Date + CalendarType + SeasonType + Language-Culture = Estimated Season
 * Date + CalendarType + SeasonType + Country = Estimated Season
-
-###Default Season Formulas
-* Date + {CalendarType: Meteorological} + {SeasonType: Calendar} + {Hemisphere: Northern} = Season
 
 ###Meteorological Calendar Season Dates
 |                                   |                             |
@@ -28,11 +26,11 @@
 | Spring                            | 1 March to 31 May           |
 | Summer                            | 1 June to 31 August         |
 | Autumn                            | 1 September to 30 November  |
-| Winter                            | 1 December to 28 February   |
+| Winter                            | 1 December to 29 February   |
 |                                                                 |
 | **Southern Hemisphere**                                         |
 | Spring                            | 1 September to 30 November  |
-| Summer                            | 1 December to 28 February   |
+| Summer                            | 1 December to 29 February   |
 | Autumn                            | 1 March to 31 May           |
 | Winter                            | 1 June to 31 August         |
 |                                                                 |
@@ -63,7 +61,7 @@
 | Winter                            |
 |                                   |
 
-###Special Seasons *For future release*
+###Special Seasons 
 |                                   |
 |:----------------------------------|
 | **Tropical Seasons**              |
