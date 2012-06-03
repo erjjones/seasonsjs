@@ -28,7 +28,7 @@
 * Cloud
 
 ###Meteorological Season Dates
-|                                                                 |
+|                                   |                             |
 |:----------------------------------|:----------------------------|
 | **Northern Hemisphere**                                         |
 | Spring                            | 1 March to 31 May           |
@@ -45,7 +45,7 @@
 
 
 ###Astronomical Season Dates
-|                                                                 |
+|                                   |                              |
 |:----------------------------------|:----------------------------|
 | **Northern Hemisphere**                                         |
 | Spring                            | 21 March to 20 June         |
