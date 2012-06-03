@@ -1,29 +1,47 @@
 #Welcome to **Seasons.js**
 *A JavaScript library which returns the season of the client*
 
-###Factors
+###Basic Forumla
+* Date + Hemisphere = Season
+
+###Various Factors
 * __Date__ - Month Day
 * __Hemisphere__ - Northern or Southern
-* __CalendarType__ - Meteorological or Astronomical
-* __SeasonType__ - Calendar or Special
-
-###Estimate Factors
-* __CountryCode__ - US
+* __Calendar Type__ - Meteorological or Astronomical
+* __Season Type__ - Calendar or Special
+* __Country Code__ - US
 * __Language-Culture__ - en-US
 
-###Season Forumla
+###Season Formulas
 * Date + CalendarType + SeasonType + Hemisphere = Season
-
-###Estimated Season Formulas
-* Date + CalendarType + SeasonType + CountryCode = Estimated Season
-* Date + CalendarType + SeasonType + Language-Culture = Estimated Season
+* Date + CalendarType + SeasonType + CountryCode = Season
 
 ###Default Season Formulas
 * Date + {CalendarType: Meteorological} + {SeasonType: Calendar} + {Hemisphere: Northern} = Season
+* Date + {CalendarType: Meteorological} + {SeasonType: Calendar} + {CountryCode: US} = Season
+
+###Estimated Season Formula
+* Date + CalendarType + SeasonType + Language-Culture = Estimated Season
 
 ###Default Estimated Season Formulas
-* Date + {CalendarType: Meteorological} + {SeasonType: Calendar} + {CountryCode: US} = Estimated Season
 * Date + {CalendarType: Meteorological} + {SeasonType: Calendar} + {Language-Culture: en-US} = Estimated Season
+
+###How to derive the Hemisphere?
+* __GPS Coordinate__ - Most mobile devices can derive this value
+* __Country Code__ - Seasons.js will key off a set of known Southern Hemisphere countries
+* __Language-Culture__ - Seasons.js will attempt to key the hemisphere based on this parameter only as an estimated season, results could vary
+* __User Input__ - You could ask the client to input the hemisphere
+* __Defaults__ - Seasons.js will default to Northern Hemisphere if no hemisphere is provided
+
+###Calendar Seasons
+|                                   |
+|:----------------------------------|
+| **Traditional Seasons**           |
+| Spring                            |
+| Summer                            |
+| Autumn                            |
+| Winter                            |
+|                                   |
 
 ###Meteorological Calendar Season Dates
 |                                   |                             |
@@ -56,16 +74,6 @@
 | Autumn                            | 21 March to 20 June         |
 | Winter                            | 21 June to 20 September     |
 |                                                                 |
-
-###Calendar Seasons
-|                                   |
-|:----------------------------------|
-| **Traditional Seasons**           |
-| Spring                            |
-| Summer                            |
-| Autumn                            |
-| Winter                            |
-|                                   |
 
 ###Special Seasons 
 |                                   |
