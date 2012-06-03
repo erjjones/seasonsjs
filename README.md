@@ -7,25 +7,36 @@
 * Autumn
 * Winter
 
-###Tropical Seasons
-* Dry
-* Wet
+###Calendar Season Formulas
+Date + Hemisphere = Season
+Date + GPS Coordinate = Season
 
-###Storm Seasons
-* Thunderstorm
-* Supercell
-* Downburst
-* Lightning
-* Tornado
-* Waterspout
-* Tropical cyclone (Hurricane)
-* Extratropical cyclone
-* Winter storm
-* Blizzard
-* Ice storm
-* Dust storm
-* Firestorm
-* Cloud
+###Estimated Calendar Season Formulas
+Date + Language-Culture = Estimated Season
+
+###Special Seasons
+|                                   |
+|:----------------------------------|
+| **Tropical Seasons**              |
+| Dry                               |
+| Wet                               |
+|                                   |
+| **Storm Seasons**                 |
+| Thunderstorm                      |
+| Supercell                         |
+| Downburst                         |
+| Lightning                         |
+| Tornado                           |
+| Waterspout                        |
+| Tropical cyclone (Hurricane)      |
+| Extratropical cyclone             |
+| Winter storm                      |
+| Blizzard                          |
+| Ice storm                         |
+| Dust storm                        |
+| Firestorm                         |
+| Cloud                             |
+|                                   |
 
 ###Meteorological Season Dates
 |                                   |                             |
@@ -43,9 +54,8 @@
 | Winter                            | 1 June to 31 August         |
 |                                                                 |
 
-
 ###Astronomical Season Dates
-|                                   |                              |
+|                                   |                             |
 |:----------------------------------|:----------------------------|
 | **Northern Hemisphere**                                         |
 | Spring                            | 21 March to 20 June         |
@@ -59,7 +69,6 @@
 | Autumn                            | 21 March to 20 June         |
 | Winter                            | 21 June to 20 September     |
 |                                                                 |
-
 
 ###Sources: 
 - http://www.calendar-365.com/
