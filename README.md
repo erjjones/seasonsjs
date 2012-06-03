@@ -1,37 +1,33 @@
-#Seasons.js
-
-> JavaScript library which returns the season of the client
-
+#Welcome to **Seasons.js**
+*A JavaScript library which returns the season of the client*
 
 ###Calendar Seasons
-- Spring
-- Summer
-- Autumn
-- Winter
+* Spring
+* Summer
+* Autumn
+* Winter
 
 ###Tropical Seasons
-- Dry
-- Wet
+* Dry
+* Wet
 
 ###Storm Seasons
-- Thunderstorm
-- Supercell
-- Downburst
-- Lightning
-- Tornado
-- Waterspout
-- Tropical cyclone (Hurricane)
-- Extratropical cyclone
-- Winter storm
-- Blizzard
-- Ice storm
-- Dust storm
-- Firestorm
-- Cloud
-
+* Thunderstorm
+* Supercell
+* Downburst
+* Lightning
+* Tornado
+* Waterspout
+* Tropical cyclone (Hurricane)
+* Extratropical cyclone
+* Winter storm
+* Blizzard
+* Ice storm
+* Dust storm
+* Firestorm
+* Cloud
 
 ###Meteorological Season Dates
-|                                   | Dates                       |
 |:----------------------------------|:----------------------------|
 | **Northern Hemisphere**                                         |
 | Spring                            | 1 March to 31 May           |
@@ -48,7 +44,6 @@
 
 
 ###Astronomical Season Dates
-|                                   | Dates                       |
 |:----------------------------------|:----------------------------|
 | **Northern Hemisphere**                                         |
 | Spring                            | 21 March to 20 June         |
@@ -65,5 +60,5 @@
 
 
 ###Sources: 
-http://www.calendar-365.com/
-http://en.wikipedia.org/wiki/Season
+- http://www.calendar-365.com/
+- http://en.wikipedia.org/wiki/Season
