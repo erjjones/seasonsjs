@@ -2,7 +2,7 @@
 *A JavaScript library which returns the season of the client*
 
 ###Forumla
-* Date + Hemisphere + CalendarType + SeasonType = Season
+* Date + CalendarType + SeasonType + Hemisphere = Season
 
 ###Factors
 * Date - Month Day
@@ -11,18 +11,15 @@
 * SeasonType - Calendar or Special
 
 ###Season Formulas
-* Date + Hemisphere + SeasonType = Season
-* Date + GPS Coordinate + SeasonType = Season
-* Date + CalendarType + Hemisphere + SeasonType = Season
-* Date + CalendarType + GPS Coordinate + SeasonType = Season
+* Date + CalendarType + SeasonType + Hemisphere = Season
+* Date + CalendarType + SeasonType + GPS Coordinate = Season
 
 ###Estimated Season Formulas
-* Date + Language-Culture + SeasonType = Estimated Season
-* Date + Country + SeasonType = Estimated Season
-* Date + CalendarType + Country + SeasonType = Estimated Season
+* Date + CalendarType + SeasonType + Language-Culture = Estimated Season
+* Date + CalendarType + SeasonType + Country = Estimated Season
 
 ###Default Season Formulas
-* Date + {Hemisphere: Northern} + {CalendarType: Meteorological} + {SeasonType: Calendar} = Season
+* Date + {CalendarType: Meteorological} + {SeasonType: Calendar} + {Hemisphere: Northern} = Season
 
 ###Meteorological Calendar Season Dates
 |                                   |                             |
@@ -66,7 +63,7 @@
 | Winter                            |
 |                                   |
 
-###Special Seasons
+###Special Seasons *For future release*
 |                                   |
 |:----------------------------------|
 | **Tropical Seasons**              |
