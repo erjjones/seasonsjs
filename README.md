@@ -98,9 +98,9 @@
 *The following countries are either entirely or mostly in the Southern Hemisphere per [Wikipedia](http://en.wikipedia.org/wiki/Southern_Hemisphere).*
 
 *We will only key off of this list for Southern Hemisphere otherwise it will default to Northern Hemisphere.*
-| Country                           | Country Code                 |
+|                                   | Country Code                 |
 |:----------------------------------|:-----------------------------|
-| **Africa **                                                      |
+| **Africa**                                                       |
 | Angola                            |                              |
 | Botswana                          |                              |
 | Burundi                           |                              |
@@ -142,9 +142,9 @@
 | Easter Island                     |                              |
 | Fiji                              |                              |
 | French Polynesia                  |                              |
-| Galápagos Islands                 |                              |
+| Galapagos Islands                 |                              |
 | Jarvis Island                     |                              |
-| Juan Fernández Islands            |                              |
+| Juan Fernandez Islands            |                              |
 | Nauru                             |                              |
 | Territory of New Caledonia        |                              | 
 | New Zealand                       |                              |
@@ -166,12 +166,12 @@
 | **Indian Ocean**                                                 |
 | British Indian Ocean Territory    |                              | 
 | Mayotte                           |                              |
-| Réunion                           |                              | 
+| Reunion                           |                              | 
 | **Southern Ocean**                                               |
 | Antarctic islands                 |                              |
 | Bouvet Island                     |                              | 
 | Kerguelen Islands                 |                              |
-| New Zealand Sub-Antarctic Islands |                              |  
+| New Zealand SubAntarctic Islands  |                              |  
 | Saint Paul and Amsterdam Island   |                              |
 | South Georgia                     |                              |
 | South Orkney Islands              |                              | 
