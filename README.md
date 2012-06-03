@@ -17,14 +17,14 @@
 * Date + CalendarType + SeasonType + CountryCode = Season
 
 ###Default Season Formulas
-* Date + {CalendarType: Meteorological} + {SeasonType: Calendar} + {Hemisphere: Northern} = Season
-* Date + {CalendarType: Meteorological} + {SeasonType: Calendar} + {CountryCode: US} = Season
+* Date + {CalendarType: Astronomical} + {SeasonType: Calendar} + {Hemisphere: Northern} = Season
+* Date + {CalendarType: Astronomical} + {SeasonType: Calendar} + {CountryCode: US} = Season
 
 ###Estimated Season Formula
 * Date + CalendarType + SeasonType + Language-Culture = Estimated Season
 
 ###Default Estimated Season Formula
-* Date + {CalendarType: Meteorological} + {SeasonType: Calendar} + {Language-Culture: en-US} = Estimated Season
+* Date + {CalendarType: Astronomical} + {SeasonType: Calendar} + {Language-Culture: en-US} = Estimated Season
 
 ###How to derive the Hemisphere?
 * __GPS Coordinate__ - Most mobile devices can derive this value
