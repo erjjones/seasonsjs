@@ -201,7 +201,7 @@
 
 ###You may also be interested in:
 - [Twilight.js] (https://github.com/erjjones/twilightjs) - A JavaScript library which derives the sun's position of the client - day, night, dawn/sunrise, dusk/sunset.
-- [Earth.js] (https://github.com/erjjones/earthjs) - A JavaScript library which bundles [Seasons.js] and [Twilight.js] (https://github.com/erjjones/twilightjs)
+- [Earth.js] (https://github.com/erjjones/earthjs) - A JavaScript library which bundles [Seasons.js] (https://github.com/erjjones/seasonsjs) and [Twilight.js] (https://github.com/erjjones/twilightjs)
 
 ###License:
 MIT License. Copyright 2012 Eric Jones. http://github.com/erjjones
