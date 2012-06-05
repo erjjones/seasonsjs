@@ -152,21 +152,21 @@
 | **Pacific Ocean**                                                                                 |
 | American Samoa                    | AS            | ASM           | 016           | AS            |
 | Cook Islands                      | CK            | COK           | 184           | CK            |
-| Easter Island                     |               |               |               |               |
+| Easter Island                     | -             | -             | -             | -             |
 | Fiji                              | FJ            | FJI           | 242           | FJ            |
 | French Polynesia                  | PF            | PYF           | 258           | PF            |
-| Galapagos Islands                 |               |               |               |               |
-| Jarvis Island                     |               |               |               |               |
-| Juan Fernandez Islands            |               |               |               |               |
+| Galapagos Islands                 | -             | -             | -             | -             |
+| Jarvis Island                     | -             | -             | -             | -             |
+| Juan Fernandez Islands            | -             | -             | -             | -             |
 | Nauru                             | NR            | NRU           | 520           | NR            |
 | Territory of New Caledonia        | NC            | NCL           | 540           | NC            |
 | New Zealand                       | NZ            | NZL           | 554           | NZ            |
 | Niue                              | NU            | NIU           | 570           | NU            |
-| Kermadec Islands                  |               |               |               |               |
+| Kermadec Islands                  | -             | -             | -             | -             |
 | Pitcairn Islands                  | PN            | PCN           | 612           | PN            |
 | Samoa                             | WS            | WSM           | 882           | WS            |
 | Solomon Islands                   | SB            | SLB           | 090           | SB            |
-| Swains Island                     |               |               |               |               |
+| Swains Island                     | -             | -             | -             | -             |
 | Tokelau                           | TK            | TKL           | 772           | TK            |
 | Tonga                             | TO            | TON           | 776           | TO            |
 | Tuvalu                            | TV            | TVU           | 798           | TV            |
@@ -175,7 +175,7 @@
 | **Atlantic Ocean**                                                                                |
 | Falkland Islands                  | FK            | FLK           | 238           | FK            |
 | Saint Helena                      | SH            | SHN           | 654           | SH            |
-| Tristan da Cunha                  |               |               |               |               |
+| Tristan da Cunha                  | -             | -             | -             | -             |
 |                                                                                                   | 
 | **Indian Ocean**                                                                                  |
 | British Indian Ocean Territory    | IO            | IOT           | 086           | IO            |
@@ -185,9 +185,8 @@
 | **Southern Ocean**                                                                                |
 | Antarctic islands                 | AQ            | ATA           | 010           | AQ            |
 | Bouvet Island                     | BV            | BVT           | 074           | BV            |
-| Kerguelen Islands                 | TF            |               |               | TF            |
 | New Zealand SubAntarctic Islands  | -             | -             | -             | -             |
-| Saint Paul and Amsterdam Island   | TF            |               |               | TF            |
+| Kerguelen, Saint Paul and Amsterdam Island   | TF            | ATF           | 260           | TF            |
 | South Georgia & Sandwich Islands  | GS            | SGS           | 239           | GS            |
 | South Orkney Islands              | -             | -             | -             | -             |
 |                                                                                                   |
