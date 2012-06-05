@@ -107,97 +107,103 @@
 
 *We will only key off of this list which contains countries in the Southern Hemisphere. If we don't find your country code we will assume the country is in the Northern Hemisphere.*
 
-|                                   | Country Code                 |
-|:----------------------------------|:-----------------------------|
-| **Africa**                                                       |
-| Angola                            |                              |
-| Botswana                          |                              |
-| Burundi                           |                              |
-| Comoros                           |                              |
-| Lesotho                           |                              |
-| Madagascar                        |                              | 
-| Malawi                            |                              |
-| Mauritius                         |                              |
-| Mozambique                        |                              |
-| Namibia                           |                              |
-| Rwanda                            |                              |
-| Seychelles                        |                              |
-| South Africa                      |                              | 
-| Swaziland                         |                              |
-| Tanzania                          |                              |
-| Zambia                            |                              | 
-| Zimbabwe                          |                              |
-| Democratic Republic of the Congo  |                              |
-| Gabon                             |                              |
-| Republic of the Congo             |                              |
-|                                                                  |
-| **Asia**                                                         |
-| East Timor                        |                              | 
-| Indonesia                         |                              | 
-|                                                                  |
-| **Australia**                                                    |
-| Australia                         |                              |
-| Papua New Guinea                  |                              |
-|                                                                  |
-| **South America**                                                |
-| Argentina                         |                              | 
-| Bolivia                           |                              |
-| Chile                             |                              |
-| Paraguay                          |                              |
-| Peru                              |                              | 
-| Uruguay                           |                              |  
-| Brazil                            |                              |  
-| Ecuador                           |                              |
-|                                                                  | 
-| **Pacific Ocean**                                                |
-| American Samoa                    |                              |   
-| Cook Islands                      |                              |
-| Easter Island                     |                              |
-| Fiji                              |                              |
-| French Polynesia                  |                              |
-| Galapagos Islands                 |                              |
-| Jarvis Island                     |                              |
-| Juan Fernandez Islands            |                              |
-| Nauru                             |                              |
-| Territory of New Caledonia        |                              | 
-| New Zealand                       |                              |
-| Niue                              |                              |
-| Kermadec Islands                  |                              | 
-| Pitcairn Islands                  |                              |
-| Samoa                             |                              |
-| Solomon Islands                   |                              | 
-| Swains Island                     |                              |
-| Tokelau                           |                              | 
-| Tonga                             |                              |
-| Tuvalu                            |                              | 
-| Vanuatu                           |                              |
-| Wallis and Futuna                 |                              |
-| **Atlantic Ocean**                                               |
-| Falkland Islands                  |                              |
-| Saint Helena                      |                              |
-| Tristan da Cunha                  |                              |
-|                                                                  | 
-| **Indian Ocean**                                                 |
-| British Indian Ocean Territory    |                              | 
-| Mayotte                           |                              |
-| Reunion                           |                              |
-|                                                                  | 
-| **Southern Ocean**                                               |
-| Antarctic islands                 |                              |
-| Bouvet Island                     |                              | 
-| Kerguelen Islands                 |                              |
-| New Zealand SubAntarctic Islands  |                              |  
-| Saint Paul and Amsterdam Island   |                              |
-| South Georgia                     |                              |
-| South Orkney Islands              |                              | 
-|                                                                  |
+|                                   | Alpha-2 Code  | Alpha-3 Code  | Numeric Code  | ISO 3166-2    |
+|:----------------------------------|:--------------|:--------------|:--------------|:--------------|
+| **Africa**                                                                                        |
+| Angola                            | AO            | AGO           | 024           | AF            |
+| Botswana                          | BW            | BWA           | 072           | BW            |
+| Burundi                           | BI            | BDI           | 108           | BI            |
+| Comoros                           | KM            | COM           | 174           | KM            |
+| Lesotho                           | LS            | LSO           | 426           | LS            |
+| Madagascar                        | MG            | MDG           | 450           | MG            |
+| Malawi                            | MW            | MWI           | 454           | MW            |
+| Mauritius                         | MU            | MUS           | 480           | MU            |
+| Mozambique                        | MZ            | MOZ           | 508           | MZ            |
+| Namibia                           | NA            | NAM           | 516           | NA            |
+| Rwanda                            | RW            | RWA           | 646           | RW            |
+| Seychelles                        | SC            | SYC           | 690           | SC            |
+| South Africa                      | ZA            | ZAF           | 710           | ZA            |
+| Swaziland                         | SZ            | SWZ           | 748           | SZ            |
+| Tanzania                          | TZ            | TZA           | 834           | TZ            |
+| Zambia                            | ZM            | ZMB           | 894           | ZM            |
+| Zimbabwe                          | ZW            | ZWE           | 716           | ZW            |
+| Democratic Republic of the Congo  | CD            | COD           | 180           | CD            |
+| Gabon                             | GA            | GAB           | 266           | GA            |
+| Republic of the Congo             | CG            | COG           | 178           | CG            |
+|                                                                                                   |
+| **Asia**                                                                                          |
+| East Timor                        | TL            | TLS           | 626           | TL            |
+| Indonesia                         | ID            | IDN           | 360           | ID            |
+|                                                                                                   |
+| **Australia**                                                                                     |
+| Australia                         | AU            | AUS           | 036           | AU            |
+| Papua New Guinea                  | PG            | PNG           | 598           | PG            |
+|                                                                                                   |
+| **South America**                                                                                 |
+| Argentina                         | AR            | ARG           | 032           | AR            |
+| Bolivia                           | BO            | BOL           | 068           | BO            |
+| Chile                             | CL            | CHL           | 152           | CL            |
+| Paraguay                          | PY            | PRY           | 600           | PY            |
+| Peru                              | PE            | PER           | 604           | PE            |
+| Uruguay                           | UY            | URY           | 858           | UY            |
+| Brazil                            | BR            | BRA           | 076           | BR            |
+| Ecuador                           | EC            | ECU           | 218           | EC            |
+|                                                                                                   | 
+| **Pacific Ocean**                                                                                 |
+| American Samoa                    | AS            | ASM           | 016           | AS            |
+| Cook Islands                      | CK            | COK           | 184           | CK            |
+| Easter Island                     |               |               |               |               |
+| Fiji                              | FJ            | FJI           | 242           | FJ            |
+| French Polynesia                  | PF            | PYF           | 258           | PF            |
+| Galapagos Islands                 |               |               |               |               |
+| Jarvis Island                     |               |               |               |               |
+| Juan Fernandez Islands            |               |               |               |               |
+| Nauru                             | NR            | NRU           | 520           | NR            |
+| Territory of New Caledonia        | NC            | NCL           | 540           | NC            |
+| New Zealand                       | NZ            | NZL           | 554           | NZ            |
+| Niue                              | NU            | NIU           | 570           | NU            |
+| Kermadec Islands                  |               |               |               |               |
+| Pitcairn Islands                  | PN            | PCN           | 612           | PN            |
+| Samoa                             | WS            | WSM           | 882           | WS            |
+| Solomon Islands                   | SB            | SLB           | 090           | SB            |
+| Swains Island                     |               |               |               |               |
+| Tokelau                           | TK            | TKL           | 772           | TK            |
+| Tonga                             | TO            | TON           | 776           | TO            |
+| Tuvalu                            | TV            | TVU           | 798           | TV            |
+| Vanuatu                           | VU            | VUT           | 548           | VU            |
+| Wallis and Futuna                 | WF            | WLF           | 876           | WF            |
+| **Atlantic Ocean**                                                                                |
+| Falkland Islands                  | FK            | FLK           | 238           | FK            |
+| Saint Helena                      | SH            | SHN           | 654           | SH            |
+| Tristan da Cunha                  |               |               |               |               |
+|                                                                                                   | 
+| **Indian Ocean**                                                                                  |
+| British Indian Ocean Territory    | IO            | IOT           | 086           | IO            |
+| Mayotte                           | YT            | MYT           | 175           | YT            |
+| Reunion                           | RE            | REU           | 638           | RE            |
+|                                                                                                   | 
+| **Southern Ocean**                                                                                |
+| Antarctic islands                 | AQ            | ATA           | 010           | AQ            |
+| Bouvet Island                     | BV            | BVT           | 074           | BV            |
+| Kerguelen Islands                 |               |               |               |               |
+| New Zealand SubAntarctic Islands  |               |               |               |               |
+| Saint Paul and Amsterdam Island   |               |               |               |               |
+| South Georgia & Sandwich Islands  | GS            | SGS           | 239           | GS            |
+| South Orkney Islands              |               |               |               |               |
+|                                                                                                   |
 
 ###Sources: 
 - http://www.calendar-365.com/
 - http://en.wikipedia.org/wiki/Season
 - http://en.wikipedia.org/wiki/Southern_Hemisphere
+- http://en.wikipedia.org/wiki/Country_code
+- http://en.wikipedia.org/wiki/ISO_3166-1
 
-###License
+###You may also be interested in:
+- [Twilight.js] (https://github.com/erjjones/twilightjs) - A JavaScript library which derives the sun's position of the client - day, night, dawn/sunrise, dusk/sunset.
+- [Earth.js] (https://github.com/erjjones/earthjs) - A JavaScript library which bundles [Seasons.js] and [Twilight.js] (https://github.com/erjjones/twilightjs)
+
+###License:
 MIT License. Copyright 2012 Eric Jones. http://github.com/erjjones
 
 Permission is hereby granted, free of charge, to any
