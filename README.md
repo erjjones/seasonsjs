@@ -185,11 +185,11 @@
 | **Southern Ocean**                                                                                |
 | Antarctic islands                 | AQ            | ATA           | 010           | AQ            |
 | Bouvet Island                     | BV            | BVT           | 074           | BV            |
-| Kerguelen Islands                 |               |               |               |               |
-| New Zealand SubAntarctic Islands  |               |               |               |               |
-| Saint Paul and Amsterdam Island   |               |               |               |               |
+| Kerguelen Islands                 | TF            |               |               | TF            |
+| New Zealand SubAntarctic Islands  | -             | -             | -             | -             |
+| Saint Paul and Amsterdam Island   | TF            |               |               | TF            |
 | South Georgia & Sandwich Islands  | GS            | SGS           | 239           | GS            |
-| South Orkney Islands              |               |               |               |               |
+| South Orkney Islands              | -             | -             | -             | -             |
 |                                                                                                   |
 
 ###Sources: 
@@ -198,6 +198,7 @@
 - http://en.wikipedia.org/wiki/Southern_Hemisphere
 - http://en.wikipedia.org/wiki/Country_code
 - http://en.wikipedia.org/wiki/ISO_3166-1
+- http://www.iso.org/iso/country_codes/updates_on_iso_3166.htm
 
 ###You may also be interested in:
 - [Twilight.js] (https://github.com/erjjones/twilightjs) - A JavaScript library which derives the sun's position of the client - day, night, dawn/sunrise, dusk/sunset.
